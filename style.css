@@ -42,6 +42,8 @@ li a:hover{
     color: rgb(231, 231, 231);
     transform: scale(1.2);
 }
+/* HOME PAGE CODE */
+/* HOME PAGE CODE */
 .imageIndexContainerOne{
     height: 100vh;
     background-image: url(images/One.jpg);
@@ -61,6 +63,7 @@ li a:hover{
     position: absolute;
 }
 /* THIS NEXT PART IS FOR THE MISSION STATEMENT */
+
 .hoursBox{
     width: 400px;
     height: 500px;
@@ -98,6 +101,7 @@ li a:hover{
     position: absolute;
     top: 23%;
     left: 20%;
+    left: 15%;
     border-top-left-radius: 5px;
     border-top-right-radius: 20%;
     border-bottom-left-radius: 0;
@@ -132,6 +136,10 @@ li a:hover{
     cursor: pointer;
     transform: translate(-50%, -50%);
     transition: .25s;
+}
+.missionStatement:hover{
+    scale: 1.008;
+
 }
 .disappear{
     transition: .25s;
